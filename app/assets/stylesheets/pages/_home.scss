@@ -1,1 +1,22 @@
 // Specific CSS for your home-page
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("washington-square-park.jpg");
+    /* Set a specific height */
+    height: 80vh;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+  }
+
+  #no-top{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0px;
+    height: 80vh;
+  }
