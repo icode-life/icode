@@ -41,9 +41,14 @@
 .navbar-wagon-link {
   color: #57058C;
   font-size: 15px;
+  text-decoration: none;
 }
 .navbar-wagon-link:hover {
   color: #57058C;
+  text-decoration: none;
+}
+
+.navbar-wagon-link:visited{
   text-decoration: none;
 }
 
